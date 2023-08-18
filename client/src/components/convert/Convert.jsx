@@ -1,7 +1,7 @@
-import SubHeader from './SubHeader'
-import Upload from './Upload'
-import useConversion from '../../hooks/useConversion'
-import InputForm from './InputForm'
+import SubHeader from './SubHeader';
+import Upload from './Upload';
+import useConversion from '../../hooks/useConversion';
+import InputForm from './InputForm';
 
 
 const Convert = ({ input, output}) => {
@@ -29,8 +29,7 @@ const Convert = ({ input, output}) => {
     isCopied,
     text,
     convert
-  }
-
+  };
 
   return (
     <>

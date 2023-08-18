@@ -11,6 +11,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Hero />} />
+            <Route path="/home" element={<Hero />} />
             <Route path="/csvjson" element={<Convert input={'CSV'} output={'JSON'}/>} />
             <Route path="/jsoncsv" element={<Convert input={'JSON'} output={'CSV'}/>} />
           </Routes>

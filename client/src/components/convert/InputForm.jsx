@@ -14,8 +14,6 @@ const InputForm = ({
   convert
  }) => {
 
-
-
   return (
     <div className="flex justify-center items-center h-fit">
         <div className="grid gap-2 w-full md:w-2/3 lg:w-1/2 px-4 md:grid-cols-2 md:flex-row">
