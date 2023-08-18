@@ -13,6 +13,7 @@ const Upload = ({ fileInputRef, handleFileUpload }) => {
             aria-describedby="file_input_help"
             id="file_input"
             type="file"
+            accept=".csv, .json"
             onChange={handleFileUpload} />
         </div>
       </div>
