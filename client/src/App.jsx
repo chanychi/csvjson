@@ -1,7 +1,7 @@
 import Hero from './components/Hero.jsx'
 import Layout from './components/Layout.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LargeInputField from './components/LargeInputField.jsx'
+import Convert from './components/convert/Convert.jsx'
 
 function App() {
 
@@ -11,7 +11,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/csvjson" element={<LargeInputField />} />
+            <Route path="/csvjson" element={<Convert input={'CSV'} output={'JSON'}/>} />
+            <Route path="/jsoncsv" element={<Convert input={'JSON'} output={'CSV'}/>} />
           </Routes>
         </BrowserRouter>
       </Layout>

@@ -6,8 +6,8 @@ import FAQS from './Faq.jsx'
 const Hero = () => {
   const nav = useNavigate();
 
-  const handleNavClick = () => {
-    nav('/csvjson')
+  const handleNavClick = (path) => {
+    nav(path)
   }
 
   return (
@@ -33,12 +33,13 @@ const Hero = () => {
           <div className="flex justify-center gap-4">
             <button
               className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 py-3 text-black'
-              onClick={handleNavClick}
+              onClick={() => handleNavClick('/csvjson')}
             >
               CSV to JSON
             </button>
             <button
               className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 py-3 text-black'
+              onClick={() => handleNavClick('/jsoncsv')}
             >
               JSON to CSV
             </button>

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-
 
   const handleNav = () => {
     setNav(!nav);
@@ -17,9 +17,11 @@ const Navbar = () => {
         <li className='p-4'>
           <a href='/'>Home</a>
         </li>
-        <li className='p-4'>Company</li>
-        <li className='p-4'>Resources</li>
-        <li className='p-4'>About</li>
+        {/* <li className='p-4'>Company</li>
+        <li className='p-4'>Resources</li> */}
+        <li className='p-4'>
+          <a href='/#about-section'>About</a>
+        </li>
         <li className='p-4'>Contact</li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>

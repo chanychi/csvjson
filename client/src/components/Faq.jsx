@@ -16,11 +16,7 @@ const accordionItems = [
   {
     title: 'Why are there broken paths?',
     content: [
-      'The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.',
-      'However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.',
-      'Learn more about these technologies:',
-      '- Flowbite Pro',
-      '- Tailwind UI',
+      'It\'s not broken. It just haven\'t been implemented yet.',
     ],
   },
 ];
@@ -96,8 +92,6 @@ const FAQs = () => {
         </div>
       ))}
     </div>
-
-
 
         </div>
         <div className='my-28'>
