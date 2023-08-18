@@ -15,10 +15,17 @@ const Footer = () => {
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>CSVJSON.</h1>
         <p className='py-4'>{DESC}</p>
         <div className='flex justify-start gap-3 md:w-[75%] my-6'>
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
+          <FaFacebookSquare size={35} />
+          <FaInstagram size={35} />
+          <FaTwitterSquare size={35} />
+          <a
+          href="https://github.com/chanychi/csvjson"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#00df9a]"
+          >
+            <FaGithubSquare size={35} />
+          </a>
         </div>
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>

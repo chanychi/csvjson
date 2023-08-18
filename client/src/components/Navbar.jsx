@@ -4,7 +4,7 @@ import { NAV_CATEGORY } from '../utils/constants.js';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const { HOME, ABOUT, CONTACT } = NAV_CATEGORY;
+  const { HOME, ABOUT, FAQ } = NAV_CATEGORY;
   const handleNav = () => {
     setNav(!nav);
   };
@@ -21,7 +21,9 @@ const Navbar = () => {
         <li className='p-4'>
           <a href='/#about-section'>{ABOUT}</a>
         </li>
-        <li className='p-4'>{CONTACT}</li>
+        <li className='p-4'>
+          <a href='/#FAQ'>{FAQ}</a>
+        </li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -35,7 +37,7 @@ const Navbar = () => {
           <a href='/#about-section'>{ABOUT}</a>
         </li>
         <li className='p-4'>
-          {CONTACT}
+         <a href='/#FAQ'>{FAQ}</a>
         </li>
       </ul>
     </div>

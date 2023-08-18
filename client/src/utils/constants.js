@@ -1,11 +1,11 @@
 export const NAV_CATEGORY = {
   HOME: 'Home',
   ABOUT: 'About',
-  CONTACT: 'Contact'
+  FAQ: 'FAQ'
 }
 
 export const FOOTER_CATEGORY = {
-  DESC: 'Transforming data with precision: Seamlessly convert your rows into powerful JSON objects and back again, unleashing the full potential of both CSV and JSON formats.',
+  DESC: 'Transforming data with precision: Seamlessly convert your rows into powerful JSON objects and back again, unleashing the full potential of both CSV and JSON formats. Check Github for more!',
   SOLUTIONS: ['Analytics', 'Marketing', 'Commerce', 'Insights'],
   SUPPORT: ['Pricing', 'Documentation', 'Guides', 'API Status'],
   COMPANY: ['About', 'Blog', 'Jobs', 'Press', 'Careers'],
@@ -16,7 +16,7 @@ export const HERO_DATA = {
   TITLE: 'UNLEASH POSSIBILITIES',
   SUBTITLE: 'Transforming',
   SUBTITLE_ARR: ['JSON', 'CSV'],
-  DESC: 'CSVJSON helps you quickly convert popular data formats to the format you need. Data converted remains local on your device'
+  DESC: 'CSVJSON empowers you to swiftly transform well-known data formats into the exact format you require.'
 }
 
 export const ANALYTICS_INFO = {
@@ -36,7 +36,7 @@ export const ACCORDION_ITEMS = [
     title: 'Why are there broken paths?',
     content: [
       "At its current phase, the project maintains a concise scope, and certain features will not undergo development, as it was never intended to be a production-grade application with complete implementation.",
-      "Despite this, the core functionality is fully operational and functional. Please be aware that certain sections such as careers, pricing, and documentation are not currently linked, as they are being prepared for future enhancements."
+      "Despite this, the core functionality is fully operational and functional. Please be aware that certain sections such as careers, pricing, and documentation are not currently linked."
     ],
   },
 ]
